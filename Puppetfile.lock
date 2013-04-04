@@ -1,3 +1,10 @@
+GIT
+  remote: git@github.com:pfeff/puppet-oh-my-zsh.git
+  ref: master
+  sha: 8956e73866c68c01466adcfbc903d681f9ed2800
+  specs:
+    oh-my-zsh (0.0.1)
+
 GITHUBTARBALL
   remote: boxen/puppet-autoconf
   specs:
@@ -117,6 +124,7 @@ DEPENDENCIES
   nginx (= 1.1.0)
   nodejs (= 1.0.0)
   nvm (= 1.0.0)
+  oh-my-zsh (>= 0)
   osx (= 1.0.0)
   repository (= 2.0.0)
   ruby (= 3.1.0)
