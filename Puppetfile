@@ -40,5 +40,6 @@ github "libtool", "1.0.0"
 github "osx", "1.0.0"
 github "repository", "2.0.0"
 github "vim", "1.0.2"
+github "wget", "1.0.0"
 github "zsh", "1.0.0"
 
