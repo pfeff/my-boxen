@@ -1,6 +1,7 @@
 class people::pfeff {
     include erlang
     include oh-my-zsh
+    include skype
     include vim
     include wget
     include zsh
