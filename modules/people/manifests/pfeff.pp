@@ -14,4 +14,5 @@ class people::pfeff {
 
     mysql::db { 'ident_test': }
 
+    package { "tree": }
 }
