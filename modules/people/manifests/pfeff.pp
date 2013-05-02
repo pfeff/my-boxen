@@ -9,6 +9,8 @@ class people::pfeff {
 
     vim::bundle { 'vim-ruby/vim-ruby': }
     vim::bundle { 'rodjek/vim-puppet': }
+    vim::bundle { 'kien/ctrlp.vim' : }
+    vim::bundle { 'vim-scripts/TVO--The-Vim-Outliner': }
 
     mysql::db { 'ident_test': }
 
