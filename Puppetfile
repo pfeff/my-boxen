@@ -35,6 +35,8 @@ github "sudo",     "1.0.0"
 # https://github.com/boxen.
 
 github "autoconf", "1.0.0"
+#github "ctags", "1.0.0"
+mod "emacs", :git => "git://github.com/boxen/puppet-emacs.git"
 github "erlang", "1.0.0"
 github "libtool", "1.0.0"
 github "mysql", "1.1.0"

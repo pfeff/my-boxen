@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/boxen/puppet-emacs.git
+  ref: master
+  sha: 5d2634dbff9dc1bb4f32bfc1a0f7da9201b4b10a
+  specs:
+    emacs (0.0.1)
+
+GIT
   remote: git@github.com:pfeff/puppet-oh-my-zsh.git
   ref: master
   sha: cfe6edb91fc53f0c2e83732b9436a6ce288c413d
@@ -124,6 +131,7 @@ DEPENDENCIES
   autoconf (= 1.0.0)
   boxen (= 1.2.0)
   dnsmasq (= 1.0.0)
+  emacs (>= 0)
   erlang (= 1.0.0)
   gcc (= 1.0.0)
   git (= 1.0.0)

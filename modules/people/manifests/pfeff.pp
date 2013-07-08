@@ -1,4 +1,6 @@
 class people::pfeff {
+  #include ctags
+    include emacs
     include erlang
     include mysql
     include oh-my-zsh
@@ -15,4 +17,10 @@ class people::pfeff {
     mysql::db { 'ident_test': }
 
     package { "tree": }
+    package { "global":
+      ensure => present
+    }
+    package { "ssh-copy-id":
+      ensure => present
+    }
 }
